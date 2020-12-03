@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "커뮤니케이션"
+  },
+  "text": {
+    "more": "",
+    "intro": "춘천 음식점의 sns에서 얼마나 사람들이 관심이 있는지 시각화하였습니다.",
+    "title": "SNS에서 춘천 음식점의 인기정도"
+  },
+  "legend": {
+    "edgeLabel": "SNS에서의 관계",
+    "colorLabel": "메뉴의 분류",
+    "nodeLabel": "음식점"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "읍면동",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
